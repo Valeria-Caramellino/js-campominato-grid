@@ -26,3 +26,7 @@ buttonPlay.addEventListener("click", function(){
 
 })
 
+//due problemi 
+//1 ogni volta che clicco sul bottone mi genera una nuova tabella sotto
+//come faccio a cambiare la misura del minibox??
+//se da 100 diventano 80 non occupa tutta la dimensione del contenitore
