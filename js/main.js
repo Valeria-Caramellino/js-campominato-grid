@@ -6,13 +6,13 @@ const contentitore = document.getElementById("container");
 function GeneraCaselleNumerate (numeroDaGenerare){
 
     for (let i = 1; i <= numeroDaGenerare; i++) {
-    const nuovoDiv = document.createElement("div");
-    nuovoDiv.classList.add("miniBox100");
-    nuovoDiv.innerText = `${i}`;
-    contentitore.append(nuovoDiv);
-    nuovoDiv.addEventListener("click", function() {
-        console.log("this: ", this);
-        this.classList.toggle("clicked");
+    const newBox = document.createElement("div");
+    newBox.classList.add("miniBox100");
+    newBox.innerText = `${i}`;
+    contentitore.append(newBox);
+    newBox.addEventListener("click", function() {
+        console.log(i);
+        this.classList.toggle("bgNuovo");
     });
     }
 }
