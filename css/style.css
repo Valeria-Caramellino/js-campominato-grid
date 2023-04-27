@@ -4,28 +4,40 @@
     box-sizing: border-box;
 }
 body{
-    background-color: darkblue;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 .testata{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    color: white;
-    margin-top: 1rem;
+    width: 1000px;
+    margin: 1rem auto;
+    height: 2rem;
+}
+.testata-sinistra{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 2rem;
 }
 button{
-    padding: 5px;
+    padding:  0.2rem 1rem;
     background-color: white;
     
+}
+main{
+    background-color: blue;
+    padding: 1rem;
 }
 .border{
     border: 2px solid white;
 }
 #container{
     margin:2rem auto;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -42,4 +54,8 @@ button{
 }
 .bgNuovo{
     background-color: coral;
+}
+.containerFooter{
+    width: 1000px;
+    margin: 1rem auto;
 }
