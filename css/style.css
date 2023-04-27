@@ -42,7 +42,7 @@ main{
     flex-wrap: wrap;
 }
 .miniBox100{
-    cursor: crosshair;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
